@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1873B29823AABF530032F858 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B29723AABF530032F858 /* Reachability.swift */; };
+		1873B29E23AAD7F20032F858 /* NoInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B29D23AAD7F20032F858 /* NoInternetViewController.swift */; };
+		1883EB7A23A7AFD1001090F8 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883EB7923A7AFD1001090F8 /* UsersTableViewCell.swift */; };
+		1891FC5823A8D0FA0055E27D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891FC5723A8D0FA0055E27D /* WebViewController.swift */; };
+		18AFFD9023A79AB200828CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFFD8F23A79AB200828CB1 /* AppDelegate.swift */; };
+		18AFFD9223A79AB200828CB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFFD9123A79AB200828CB1 /* HomeViewController.swift */; };
+		18AFFD9523A79AB200828CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFD9323A79AB200828CB1 /* Main.storyboard */; };
+		18AFFD9823A79AB200828CB1 /* Eko_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18AFFD9623A79AB200828CB1 /* Eko_Task.xcdatamodeld */; };
+		18AFFD9A23A79AB400828CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFD9923A79AB400828CB1 /* Assets.xcassets */; };
+		18AFFD9D23A79AB400828CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AFFD9B23A79AB400828CB1 /* LaunchScreen.storyboard */; };
+		18AFFDA823A79AB400828CB1 /* Eko_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFFDA723A79AB400828CB1 /* Eko_TaskTests.swift */; };
+		18AFFDB323A79AB400828CB1 /* Eko_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFFDB223A79AB400828CB1 /* Eko_TaskUITests.swift */; };
+		18AFFDC423A7A15300828CB1 /* AllUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFFDC323A7A15300828CB1 /* AllUsers.swift */; };
+		18AFFDC723A7A22E00828CB1 /* UsersWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFFDC623A7A22E00828CB1 /* UsersWebService.swift */; };
+		A45B9E34CC12BF80D9C73DB0 /* Pods_Eko_Task_Eko_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8B53296224A291EAC3D62F /* Pods_Eko_Task_Eko_TaskUITests.framework */; };
+		AA2EA4161366C3669663B7E4 /* Pods_Eko_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9798EC1C1D6BE6E4B3F40A57 /* Pods_Eko_Task.framework */; };
+		F0C4B3446B5BEF2387672D94 /* Pods_Eko_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB0647EE059EED9F7AC1C8A /* Pods_Eko_TaskTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AFFDA423A79AB400828CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AFFD8423A79AB100828CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AFFD8B23A79AB100828CB1;
+			remoteInfo = "Eko Task";
+		};
+		18AFFDAF23A79AB400828CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AFFD8423A79AB100828CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AFFD8B23A79AB100828CB1;
+			remoteInfo = "Eko Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1873B29723AABF530032F858 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1873B29D23AAD7F20032F858 /* NoInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetViewController.swift; sourceTree = "<group>"; };
+		1883EB7923A7AFD1001090F8 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		1891FC5723A8D0FA0055E27D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		18AFFD8C23A79AB200828CB1 /* Eko Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eko Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AFFD8F23A79AB200828CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18AFFD9123A79AB200828CB1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18AFFD9423A79AB200828CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AFFD9723A79AB200828CB1 /* Eko_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eko_Task.xcdatamodel; sourceTree = "<group>"; };
+		18AFFD9923A79AB400828CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AFFD9C23A79AB400828CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AFFD9E23A79AB400828CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AFFDA323A79AB400828CB1 /* Eko TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eko TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AFFDA723A79AB400828CB1 /* Eko_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eko_TaskTests.swift; sourceTree = "<group>"; };
+		18AFFDA923A79AB400828CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AFFDAE23A79AB400828CB1 /* Eko TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eko TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AFFDB223A79AB400828CB1 /* Eko_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eko_TaskUITests.swift; sourceTree = "<group>"; };
+		18AFFDB423A79AB400828CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AFFDC323A7A15300828CB1 /* AllUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsers.swift; sourceTree = "<group>"; };
+		18AFFDC623A7A22E00828CB1 /* UsersWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersWebService.swift; sourceTree = "<group>"; };
+		39299D73F3C63FFF55E738D4 /* Pods-Eko TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eko TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Eko TaskTests/Pods-Eko TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CB0647EE059EED9F7AC1C8A /* Pods_Eko_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eko_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8B53296224A291EAC3D62F /* Pods_Eko_Task_Eko_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eko_Task_Eko_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE5F1B9B6CCC6A3A780F703 /* Pods-Eko Task-Eko TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eko Task-Eko TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Eko Task-Eko TaskUITests/Pods-Eko Task-Eko TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B86C37DFCBF9CFD367638A4 /* Pods-Eko TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eko TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Eko TaskTests/Pods-Eko TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AE574B9A768E55CFC259DCD /* Pods-Eko Task-Eko TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eko Task-Eko TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Eko Task-Eko TaskUITests/Pods-Eko Task-Eko TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9798EC1C1D6BE6E4B3F40A57 /* Pods_Eko_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eko_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC98A8A065A88F6C53DE1489 /* Pods-Eko Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eko Task.debug.xcconfig"; path = "Target Support Files/Pods-Eko Task/Pods-Eko Task.debug.xcconfig"; sourceTree = "<group>"; };
+		E3DD320A6514DEEFC1EE4E1B /* Pods-Eko Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eko Task.release.xcconfig"; path = "Target Support Files/Pods-Eko Task/Pods-Eko Task.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AFFD8923A79AB100828CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2EA4161366C3669663B7E4 /* Pods_Eko_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AFFDA023A79AB400828CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4B3446B5BEF2387672D94 /* Pods_Eko_TaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AFFDAB23A79AB400828CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45B9E34CC12BF80D9C73DB0 /* Pods_Eko_Task_Eko_TaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1873B29623AABF1F0032F858 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1873B29723AABF530032F858 /* Reachability.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1883EB7823A7AFAE001090F8 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1883EB7923A7AFD1001090F8 /* UsersTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		18AFFD8323A79AB100828CB1 = {
+			isa = PBXGroup;
+			children = (
+				18AFFD8E23A79AB200828CB1 /* Eko Task */,
+				18AFFDA623A79AB400828CB1 /* Eko TaskTests */,
+				18AFFDB123A79AB400828CB1 /* Eko TaskUITests */,
+				18AFFD8D23A79AB200828CB1 /* Products */,
+				65245BC318964204CE387826 /* Pods */,
+				3886DFEDD59242CDBE9922F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18AFFD8D23A79AB200828CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AFFD8C23A79AB200828CB1 /* Eko Task.app */,
+				18AFFDA323A79AB400828CB1 /* Eko TaskTests.xctest */,
+				18AFFDAE23A79AB400828CB1 /* Eko TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AFFD8E23A79AB200828CB1 /* Eko Task */ = {
+			isa = PBXGroup;
+			children = (
+				1873B29623AABF1F0032F858 /* Helper */,
+				18AFFDC523A7A21400828CB1 /* WebService */,
+				18AFFDC023A7A12E00828CB1 /* Model */,
+				18AFFDC123A7A13400828CB1 /* View */,
+				18AFFDC223A7A13A00828CB1 /* Controller */,
+				18AFFD8F23A79AB200828CB1 /* AppDelegate.swift */,
+				18AFFD9323A79AB200828CB1 /* Main.storyboard */,
+				18AFFD9923A79AB400828CB1 /* Assets.xcassets */,
+				18AFFD9B23A79AB400828CB1 /* LaunchScreen.storyboard */,
+				18AFFD9E23A79AB400828CB1 /* Info.plist */,
+				18AFFD9623A79AB200828CB1 /* Eko_Task.xcdatamodeld */,
+			);
+			path = "Eko Task";
+			sourceTree = "<group>";
+		};
+		18AFFDA623A79AB400828CB1 /* Eko TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AFFDA723A79AB400828CB1 /* Eko_TaskTests.swift */,
+				18AFFDA923A79AB400828CB1 /* Info.plist */,
+			);
+			path = "Eko TaskTests";
+			sourceTree = "<group>";
+		};
+		18AFFDB123A79AB400828CB1 /* Eko TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18AFFDB223A79AB400828CB1 /* Eko_TaskUITests.swift */,
+				18AFFDB423A79AB400828CB1 /* Info.plist */,
+			);
+			path = "Eko TaskUITests";
+			sourceTree = "<group>";
+		};
+		18AFFDC023A7A12E00828CB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18AFFDC323A7A15300828CB1 /* AllUsers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18AFFDC123A7A13400828CB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1883EB7823A7AFAE001090F8 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18AFFDC223A7A13A00828CB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18AFFD9123A79AB200828CB1 /* HomeViewController.swift */,
+				1891FC5723A8D0FA0055E27D /* WebViewController.swift */,
+				1873B29D23AAD7F20032F858 /* NoInternetViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18AFFDC523A7A21400828CB1 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				18AFFDC623A7A22E00828CB1 /* UsersWebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		3886DFEDD59242CDBE9922F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9798EC1C1D6BE6E4B3F40A57 /* Pods_Eko_Task.framework */,
+				4D8B53296224A291EAC3D62F /* Pods_Eko_Task_Eko_TaskUITests.framework */,
+				3CB0647EE059EED9F7AC1C8A /* Pods_Eko_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65245BC318964204CE387826 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC98A8A065A88F6C53DE1489 /* Pods-Eko Task.debug.xcconfig */,
+				E3DD320A6514DEEFC1EE4E1B /* Pods-Eko Task.release.xcconfig */,
+				8AE574B9A768E55CFC259DCD /* Pods-Eko Task-Eko TaskUITests.debug.xcconfig */,
+				6FE5F1B9B6CCC6A3A780F703 /* Pods-Eko Task-Eko TaskUITests.release.xcconfig */,
+				39299D73F3C63FFF55E738D4 /* Pods-Eko TaskTests.debug.xcconfig */,
+				7B86C37DFCBF9CFD367638A4 /* Pods-Eko TaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AFFD8B23A79AB100828CB1 /* Eko Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AFFDB723A79AB400828CB1 /* Build configuration list for PBXNativeTarget "Eko Task" */;
+			buildPhases = (
+				D56416FF13DACB19443ECA84 /* [CP] Check Pods Manifest.lock */,
+				18AFFD8823A79AB100828CB1 /* Sources */,
+				18AFFD8923A79AB100828CB1 /* Frameworks */,
+				18AFFD8A23A79AB100828CB1 /* Resources */,
+				867D57F28FB58FB7661C8D94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eko Task";
+			productName = "Eko Task";
+			productReference = 18AFFD8C23A79AB200828CB1 /* Eko Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18AFFDA223A79AB400828CB1 /* Eko TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AFFDBA23A79AB400828CB1 /* Build configuration list for PBXNativeTarget "Eko TaskTests" */;
+			buildPhases = (
+				5440E24F04B068B39759C121 /* [CP] Check Pods Manifest.lock */,
+				18AFFD9F23A79AB400828CB1 /* Sources */,
+				18AFFDA023A79AB400828CB1 /* Frameworks */,
+				18AFFDA123A79AB400828CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AFFDA523A79AB400828CB1 /* PBXTargetDependency */,
+			);
+			name = "Eko TaskTests";
+			productName = "Eko TaskTests";
+			productReference = 18AFFDA323A79AB400828CB1 /* Eko TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18AFFDAD23A79AB400828CB1 /* Eko TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AFFDBD23A79AB400828CB1 /* Build configuration list for PBXNativeTarget "Eko TaskUITests" */;
+			buildPhases = (
+				F6DB59846CCBF1F12B556D8E /* [CP] Check Pods Manifest.lock */,
+				18AFFDAA23A79AB400828CB1 /* Sources */,
+				18AFFDAB23A79AB400828CB1 /* Frameworks */,
+				18AFFDAC23A79AB400828CB1 /* Resources */,
+				7F7083784B34E932D9C3963D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AFFDB023A79AB400828CB1 /* PBXTargetDependency */,
+			);
+			name = "Eko TaskUITests";
+			productName = "Eko TaskUITests";
+			productReference = 18AFFDAE23A79AB400828CB1 /* Eko TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AFFD8423A79AB100828CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18AFFD8B23A79AB100828CB1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18AFFDA223A79AB400828CB1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18AFFD8B23A79AB100828CB1;
+					};
+					18AFFDAD23A79AB400828CB1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18AFFD8B23A79AB100828CB1;
+					};
+				};
+			};
+			buildConfigurationList = 18AFFD8723A79AB100828CB1 /* Build configuration list for PBXProject "Eko Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AFFD8323A79AB100828CB1;
+			productRefGroup = 18AFFD8D23A79AB200828CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AFFD8B23A79AB100828CB1 /* Eko Task */,
+				18AFFDA223A79AB400828CB1 /* Eko TaskTests */,
+				18AFFDAD23A79AB400828CB1 /* Eko TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AFFD8A23A79AB100828CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AFFD9D23A79AB400828CB1 /* LaunchScreen.storyboard in Resources */,
+				18AFFD9A23A79AB400828CB1 /* Assets.xcassets in Resources */,
+				18AFFD9523A79AB200828CB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AFFDA123A79AB400828CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AFFDAC23A79AB400828CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5440E24F04B068B39759C121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eko TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7083784B34E932D9C3963D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eko Task-Eko TaskUITests/Pods-Eko Task-Eko TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eko Task-Eko TaskUITests/Pods-Eko Task-Eko TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eko Task-Eko TaskUITests/Pods-Eko Task-Eko TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		867D57F28FB58FB7661C8D94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eko Task/Pods-Eko Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eko Task/Pods-Eko Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eko Task/Pods-Eko Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56416FF13DACB19443ECA84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eko Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DB59846CCBF1F12B556D8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eko Task-Eko TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AFFD8823A79AB100828CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AFFDC723A7A22E00828CB1 /* UsersWebService.swift in Sources */,
+				18AFFDC423A7A15300828CB1 /* AllUsers.swift in Sources */,
+				18AFFD9823A79AB200828CB1 /* Eko_Task.xcdatamodeld in Sources */,
+				1873B29E23AAD7F20032F858 /* NoInternetViewController.swift in Sources */,
+				18AFFD9223A79AB200828CB1 /* HomeViewController.swift in Sources */,
+				1891FC5823A8D0FA0055E27D /* WebViewController.swift in Sources */,
+				1883EB7A23A7AFD1001090F8 /* UsersTableViewCell.swift in Sources */,
+				1873B29823AABF530032F858 /* Reachability.swift in Sources */,
+				18AFFD9023A79AB200828CB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AFFD9F23A79AB400828CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AFFDA823A79AB400828CB1 /* Eko_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AFFDAA23A79AB400828CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AFFDB323A79AB400828CB1 /* Eko_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AFFDA523A79AB400828CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AFFD8B23A79AB100828CB1 /* Eko Task */;
+			targetProxy = 18AFFDA423A79AB400828CB1 /* PBXContainerItemProxy */;
+		};
+		18AFFDB023A79AB400828CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AFFD8B23A79AB100828CB1 /* Eko Task */;
+			targetProxy = 18AFFDAF23A79AB400828CB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18AFFD9323A79AB200828CB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AFFD9423A79AB200828CB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AFFD9B23A79AB400828CB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AFFD9C23A79AB400828CB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AFFDB523A79AB400828CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18AFFDB623A79AB400828CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AFFDB823A79AB400828CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC98A8A065A88F6C53DE1489 /* Pods-Eko Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eko Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eko-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18AFFDB923A79AB400828CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DD320A6514DEEFC1EE4E1B /* Pods-Eko Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eko Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eko-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18AFFDBB23A79AB400828CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39299D73F3C63FFF55E738D4 /* Pods-Eko TaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eko TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eko-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eko Task.app/Eko Task";
+			};
+			name = Debug;
+		};
+		18AFFDBC23A79AB400828CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B86C37DFCBF9CFD367638A4 /* Pods-Eko TaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eko TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eko-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eko Task.app/Eko Task";
+			};
+			name = Release;
+		};
+		18AFFDBE23A79AB400828CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE574B9A768E55CFC259DCD /* Pods-Eko Task-Eko TaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eko TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eko-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eko Task";
+			};
+			name = Debug;
+		};
+		18AFFDBF23A79AB400828CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE5F1B9B6CCC6A3A780F703 /* Pods-Eko Task-Eko TaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eko TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eko-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eko Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AFFD8723A79AB100828CB1 /* Build configuration list for PBXProject "Eko Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AFFDB523A79AB400828CB1 /* Debug */,
+				18AFFDB623A79AB400828CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AFFDB723A79AB400828CB1 /* Build configuration list for PBXNativeTarget "Eko Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AFFDB823A79AB400828CB1 /* Debug */,
+				18AFFDB923A79AB400828CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AFFDBA23A79AB400828CB1 /* Build configuration list for PBXNativeTarget "Eko TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AFFDBB23A79AB400828CB1 /* Debug */,
+				18AFFDBC23A79AB400828CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AFFDBD23A79AB400828CB1 /* Build configuration list for PBXNativeTarget "Eko TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AFFDBE23A79AB400828CB1 /* Debug */,
+				18AFFDBF23A79AB400828CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18AFFD9623A79AB200828CB1 /* Eko_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18AFFD9723A79AB200828CB1 /* Eko_Task.xcdatamodel */,
+			);
+			currentVersion = 18AFFD9723A79AB200828CB1 /* Eko_Task.xcdatamodel */;
+			path = Eko_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18AFFD8423A79AB100828CB1 /* Project object */;
+}
